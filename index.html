@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Caption App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Add Captions to Your Video</h1>
+      <div class="input-section">
+        <input
+          type="text"
+          id="video-url"
+          placeholder="Enter video URL"
+          value="https://www.w3schools.com/html/mov_bbb.mp4"
+        />
+        <textarea id="captions" placeholder="Enter captions"></textarea>
+        <button id="load-video">Load Video</button>
+      </div>
+      <div class="video-section">
+        <video id="video" controls></video>
+        <div id="caption-display"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

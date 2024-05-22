@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+#captions {
+  width: 300px;
+  height: 100px;
+  display: block;
+  margin: 10px auto;
+}
+
+.video-section {
+  position: relative;
+  width: 640px;
+  margin: 0 auto;
+}
+
+#video {
+  width: 100%;
+  height: auto;
+}
+
+#caption-display {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px black;
+}
